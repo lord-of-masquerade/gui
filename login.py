@@ -22,11 +22,16 @@ password_label.grid(row=2,column=0,pady=10,padx=10)
 password_entry=tk.Entry(root,show="*")
 password_entry.grid(row=2,column=1,padx=10,pady=10)
 
+#checkbox   
+remember_var=tk.IntVar()
+remember_check=tk.Checkbutton(root,text="Rmember Me",variable=remember_var)
+remember_check.grid(row=3,column=1,sticky="w",padx=10)
+
 def login():
     username=username_entry.get()
     password=password_entry.get()
     if username=="" or password=="":
-        messagebox.showerror("Error","Please enter both Password and Username")
+        messagebox.showerror("Error","Please fill all the fields")
     else:
         messagebox.showinfo("Success",f"Welcome {username} !")
 login_btn=tk.Button(root,text="Login",command=login)
