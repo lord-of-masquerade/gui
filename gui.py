@@ -5,7 +5,6 @@ root.title("my application")
 root.geometry("500x300")
 
 def greet():
-    label.config(text="welcome")
     name=entry.get()
 
     if name=="":
