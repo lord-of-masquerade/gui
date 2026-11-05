@@ -21,3 +21,7 @@ def welcome():
 def clear():
     entry.delete(0, tk.End)
     happy.set(0)
+
+#label for the welcome message
+label=tk.Label(root,text="What's your name,little purr ball?",bg="pink")
+label.pack()
