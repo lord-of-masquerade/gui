@@ -42,3 +42,5 @@ clear_btn = Button(
     command=clear
 )
 clear_btn.pack(pady=5)
+
+root.mainloop()
