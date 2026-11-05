@@ -25,3 +25,11 @@ def clear():
 #label for the welcome message
 label=tk.Label(root,text="What's your name,little purr ball?",bg="pink")
 label.pack()
+
+#button to show the welcome message
+btn=tk.Button(
+    root, text="Send me a smile! ❤️",
+    command=welcome, bg="purple",
+    fg="white"
+)
+btn.pack()
