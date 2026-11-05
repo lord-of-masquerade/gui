@@ -33,3 +33,12 @@ btn=tk.Button(
     fg="white"
 )
 btn.pack()
+
+
+# Clear button
+clear_btn = Button(
+    root,
+    text="Clear",
+    command=clear
+)
+clear_btn.pack(pady=5)
