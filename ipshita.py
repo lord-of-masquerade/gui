@@ -16,3 +16,8 @@ def welcome():
             " Hello!",
             "Hey " + name + "! You are amazing! ❤️"
             )
+
+#clear function to clear the entry and reset the checkbox
+def clear():
+    entry.delete(0, tk.End)
+    happy.set(0)
