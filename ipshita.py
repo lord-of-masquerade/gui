@@ -36,7 +36,7 @@ btn.pack()
 
 
 # Clear button
-clear_btn = Button(
+clear_btn = tk.Button(
     root,
     text="Clear",
     command=clear
