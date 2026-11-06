@@ -26,6 +26,10 @@ def clear():
 label=tk.Label(root,text="What's your name,little purr ball?",bg="pink")
 label.pack()
 
+#adding an entry box for the user to enter their name
+entry=tk.Entry(root)
+entry.pack(pady=10)
+
 #button to show the welcome message
 btn=tk.Button(
     root, text="Send me a smile! ❤️",
