@@ -19,7 +19,7 @@ def welcome():
 
 #clear function to clear the entry and reset the checkbox
 def clear():
-    entry.delete(0, tk.End)
+    entry.delete(0, tk.END)
     happy.set(0)
 
 #label for the welcome message
