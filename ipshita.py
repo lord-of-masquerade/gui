@@ -30,6 +30,17 @@ label.pack()
 entry=tk.Entry(root)
 entry.pack(pady=10)
 
+# Checkbox
+happy = IntVar()
+
+check = Checkbutton(
+    root,
+    text="I promise to smile today 😊",
+    variable=happy,
+    bg="pink"
+)
+check.pack(pady=10)
+
 #button to show the welcome message
 btn=tk.Button(
     root, text="Send me a smile! ❤️",
